@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    background-color: #9a5858;
+    color: white;
+    padding: 1rem;
+    width: 100%;
+    text-align: center;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+.blogs{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    column-gap: 50px;
+}
+main {
+    padding: 2rem;
+    max-width: 1000px;
+    display: grid;
+    padding: 10px;
+    align-items: stretch;
+}
+
+.book-review {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+    
+}
+
+.book-review h2 {
+    margin-top: 0;
+}
+
+.rating {
+    font-weight: bold;
+}
+
+aside {
+    max-width: 300px;
+    padding: 1rem;
+    display: grid;
+    grid-template-rows: 250px 3400px;
+    padding: 1rem;
+}
+.recent-reviews{
+    text-align: center;
+}
+.recent-reviews ul li {
+    text-align: left;
+    list-style-type:circle;
+}
+
+footer {
+    background-color: #9a5858;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    width: 100%;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+form input,label,select,textarea{
+    width:170px;
+}
+form button{
+    width: 100px;
+}
