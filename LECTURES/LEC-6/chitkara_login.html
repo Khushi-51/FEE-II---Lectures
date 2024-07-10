@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chitkara login</title>
+    <link rel="stylesheet" href="chitkara_login.css">
+</head>
+<body>
+    <form action="login.php" method="post">
+        <div class="main">
+
+            <label for="username">Username:</label><br>
+            <input type="text" name="username" id="username"><br><br>
+            <label for="password">Password:</label><br>
+            <input type="password" name="password" id="password"><br><br>
+            <!--session-->
+            <label for="session">Session:</label><br>
+            <input type="text" name="session" id="session"><br><br>
+            <!--select-->
+            <label for="select">Select:</label><br>
+            <select name="select" id="select">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select>
+            <input type="checkbox" name="remember" id="remember">
+            <label for="remember">Remember me</label><br>
+            <input type="submit" value="Login">
+        </div>
+    </form>
+</body>
+</html>
