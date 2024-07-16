@@ -1,0 +1,31 @@
+.ol{
+    text-align: justify;
+}
+body{
+    font-size: 30px;
+}
+h1{
+ text-align: inherit;
+ /* text-align: center; */
+ /* text-align: start; */
+ /* text-align:justify; */
+ /* text-align:right; */
+ /* text-align: end; */
+ /* text-align: left; */
+ /* text-align: initial; */
+
+}
+p{
+    text-align: inherit;
+}
+a{
+    text-decoration: line-through;
+    text-decoration: underline;
+    text-decoration: overline;
+    text-decoration-color: red;
+    text-decoration-style: wavy;
+}
+h3{
+    text-shadow: 12px 2px 2px black;
+    color: transparent;
+}
