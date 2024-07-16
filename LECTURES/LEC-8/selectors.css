@@ -1,0 +1,38 @@
+/* UNIVERSAL SELECTORS */
+* {
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+/* Id Selectors */
+#fruits {
+    color: aqua;
+    border: 2px dashed green;
+}
+
+
+
+/* CLASS SELECTORS */
+.a1 {
+    color: rgb(255, 38, 0);
+    text-decoration: line-through;
+    font-weight: bolder;
+}
+
+
+/* ELEMENTS SELECTORS */
+p {
+    background-color: antiquewhite;
+}
+
+
+
+/* ATTRIBUTES SELECTORS */
+input[type="text"] {
+    background-color:orange;
+}
+
+input[type="password"] {
+    background-color:green;
+}
