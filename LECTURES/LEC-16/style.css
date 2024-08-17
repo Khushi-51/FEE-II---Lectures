@@ -1,0 +1,8 @@
+.box{
+    padding: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: first baseline;
+    gap: 40px;
+    align-items: center;
+}
