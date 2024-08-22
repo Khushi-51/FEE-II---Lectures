@@ -1,12 +1,12 @@
 
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f8f9fa;
+    background-color: #a29da3;
     color: #343a40;
   }
   
   .sidebar {
-    height: 100vh;
+    height: 90vh;
     position: fixed;
     top: 0;
     left: 0;
@@ -19,7 +19,6 @@ body {
     color: #7c6aa7 !important;
 
   }
-  
   .sidebar .nav-link {
     color: #343a40;
   }
@@ -30,8 +29,9 @@ body {
     background-color: #343a40;
   }
   
-  .main {
+  main {
     margin-left: 250px;
+    height: 100%;
   }
   
   footer {
@@ -64,6 +64,8 @@ body {
   .card {
     border: none;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: rgba(204, 200, 200, 0.1) !important;
+    border: 1px solid rgb(7, 7, 7) !important;
   }
   
   .card:hover {
@@ -105,15 +107,19 @@ body {
   
   .search-bar {
     width: 250px;
+    background-color: #343a40 !important;
   }
   footer{
     width: 100%;
+    position: absolute;
+    background-color: rgba(170, 159, 175, 0.9) !important;
+    bottom: 0;
   }
   img{
     height: 175px;
   }
   @media (max-width: 768px) {
-    .main {
+    main {
       margin-left: 0;
     }
   
